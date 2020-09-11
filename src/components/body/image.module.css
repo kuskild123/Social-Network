@@ -1,0 +1,10 @@
+.post{
+    margin: 30px;
+}
+.post input{
+    font-style: italic;
+}
+.text{
+    border: 1px solid gray;
+    padding: 10px;
+}

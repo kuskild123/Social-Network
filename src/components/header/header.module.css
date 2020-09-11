@@ -1,0 +1,13 @@
+.header{
+  height: 60px;
+  background: linear-gradient(darkblue,black);
+  position: relative;
+}
+
+.header img{
+  border: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  left: -7px;
+  top: -5px;
+}

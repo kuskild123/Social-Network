@@ -1,0 +1,41 @@
+
+.menu{
+  margin-top: 20px;
+  background-color: #fff;
+  height: 137px;
+  width: 100px;
+  text-align: center;
+  color: black;
+  list-style: none;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.menu a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+  list-style: none;
+  margin-right: 15px;
+  margin-bottom: 2px;
+  transition: color .1s linear;
+}
+.menu a:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.menu a:after{
+  display: block;
+  content: '';
+  height: 0.2px;
+  width: 100px;
+
+  background: #e3e1e1;
+  margin: 4px 0;
+}
+.menu a.active{
+
+  font-weight: 800;
+
+}

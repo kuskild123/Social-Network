@@ -1,0 +1,15 @@
+.app{
+  display: flex;
+}
+
+.app-content{
+  width: 94%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F1EEEE;
+
+}
+
+
+
+

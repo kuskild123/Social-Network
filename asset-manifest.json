@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kuskild123/social/static/css/main.7d39c9e8.chunk.css",
+    "main.js": "/kuskild123/social/static/js/main.5e0b38c6.chunk.js",
+    "main.js.map": "/kuskild123/social/static/js/main.5e0b38c6.chunk.js.map",
+    "runtime-main.js": "/kuskild123/social/static/js/runtime-main.9704a8f9.js",
+    "runtime-main.js.map": "/kuskild123/social/static/js/runtime-main.9704a8f9.js.map",
+    "static/js/2.ee396b7a.chunk.js": "/kuskild123/social/static/js/2.ee396b7a.chunk.js",
+    "static/js/2.ee396b7a.chunk.js.map": "/kuskild123/social/static/js/2.ee396b7a.chunk.js.map",
+    "index.html": "/kuskild123/social/index.html",
+    "precache-manifest.68c0caab39358a0641ac21425f25359a.js": "/kuskild123/social/precache-manifest.68c0caab39358a0641ac21425f25359a.js",
+    "service-worker.js": "/kuskild123/social/service-worker.js",
+    "static/css/main.7d39c9e8.chunk.css.map": "/kuskild123/social/static/css/main.7d39c9e8.chunk.css.map",
+    "static/js/2.ee396b7a.chunk.js.LICENSE.txt": "/kuskild123/social/static/js/2.ee396b7a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9704a8f9.js",
+    "static/js/2.ee396b7a.chunk.js",
+    "static/css/main.7d39c9e8.chunk.css",
+    "static/js/main.5e0b38c6.chunk.js"
+  ]
+}

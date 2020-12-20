@@ -1,36 +1,62 @@
 import React from 'react';
 import './index.css';
-import {Header} from './components/header/header.js';
 import {Menu} from './components/menu/menu.js';
-import {Dialog} from './dialogs/dialogs.js';
-import {BrowserRouter, Route} from "react-router-dom";
-import {Music} from "./components/others/music/music";
-import {News} from "./components/others/news/news";
-import {Settings} from "./components/others/settings/settings";
-import {PageMessage} from "./components/body/message";
+import {BrowserRouter, Route, withRouter} from "react-router-dom";
+import {HeaderContainer} from "./components/header/HeaderMain/HeaderContainer";
+import Login from './components/login/LoginMain/loginContainer'
+import {compose} from "redux";
+import {connect, Provider} from "react-redux";
+import {InitializeAppT} from "./redux/App/AppPageReducers";
+import Loader from "./components/common/Preloader/Loader";
 import store from "./redux/redux-store";
-import {Form} from "./dialogs/form";
+import WithSuspense from "./components/common/Suspense/ReactSuspense";
 
-function App(props) {
+const Dialogs = React.lazy( () => import("./components/dialogs/DialogsMain/dialogs-container") )
+const Music = React.lazy( () => import ("./components/music/music") )
+const Profile = React.lazy( () => import ("./components/Profile/ProfileMain/profileContainer") )
+const Users = React.lazy( () => import ("./components/users/UsersMain/users-container") )
+const Home = React.lazy( () => import('./components/home/HomeMain/Home') )
+class App extends React.Component {
+    componentDidMount() {
 
-  return (
-
-          <div className='app-wrapper'>
-              <Header></Header>
-              <div className='app'>
-                  <Menu></Menu>
-                  <div className='app-content'>
-                      <Route path='/dialogs'render={ () => <Dialog NewDialogValue={props.state.DialogPage.NewDialogValue} dispatch={store.dispatch.bind(store)} DialogData={props.state.DialogPage.DialogData} MessageData1={props.state.DialogPage.MessageData1} MessageData2={props.state.DialogPage.MessageData2}></Dialog>}></Route>
-                      <Route path='/messages'render={ () => <PageMessage NewPostValue={props.state.MessagePage.NewValue} dispatch={store.dispatch.bind(store)} LikesData={props.state.MessagePage.LikesData} ImageCenterData={props.state.MessagePage.ImageCenterData}></PageMessage>}></Route>
-                      <Route path='/music'render={ () => <Music></Music>}></Route>
-                      <Route path='/news'render={ () => <News></News>}></Route>
-                      <Route path='/settings'render={ () => <Settings></Settings>}></Route>
-
-                  </div>
-              </div>
-          </div>
-
-  );
+        this.props.InitializeAppT()
+    }
+    render() {
+         return (
+            <div className='app-wrapper'>
+                <HeaderContainer></HeaderContainer>
+                <div className='app'>
+                    <Menu></Menu>
+                    <div className='app-content'>
+                        {!this.props.IsInitial ? <Loader></Loader> : <>
+                            <Route path='/dialogs' render={WithSuspense(Dialogs)}></Route>
+                            <Route path='/music' render={WithSuspense(Music)}></Route>
+                            <Route path='/login' render={() => <Login></Login>}></Route>
+                            <Route path='/profile/:userId?' render={WithSuspense(Profile)}></Route>
+                            <Route path='/users' render={WithSuspense(Users)}></Route>
+                            <Route path='/home' render={WithSuspense(Home)}></Route>
+                        </>
+                        }
+                    </div>
+                </div>
+            </div>
+        );
+    }
 }
-
-export default App;
+let MapStateToProps = (state) => {
+    return {
+        IsInitial : state.AppPage.isInitial
+    }
+}
+let AppContainer = compose(
+    connect(MapStateToProps,{InitializeAppT}),
+    withRouter
+)(App);
+let MainApp = (props) => {
+    return <BrowserRouter>
+        <Provider store={ store }>
+            <AppContainer/>
+        </Provider>
+    </BrowserRouter>
+}
+export default MainApp;

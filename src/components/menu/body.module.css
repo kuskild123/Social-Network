@@ -2,7 +2,7 @@
 .menu{
   margin-top: 20px;
   background-color: #fff;
-  height: 137px;
+  height:140px;
   width: 100px;
   text-align: center;
   color: black;
@@ -33,6 +33,9 @@
 
   background: #e3e1e1;
   margin: 4px 0;
+}
+.menu a:last-child:after{
+  display: none;
 }
 .menu a.active{
 

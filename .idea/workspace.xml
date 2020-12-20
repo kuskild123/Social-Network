@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="" />
+    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/body/body-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/body/image-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/users/users-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/users/users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dialogs/dialogs-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dialogs/form-container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/UserPageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/posts/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/posts/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/body/posts/posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/posts/posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/body.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/body.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/others/settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/others/settings/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dialogs/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/DialogPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/DialogPageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/messagePageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/messagePageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,37 +50,48 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gQRdCMHQdOpRHFK1pbXc7nvadk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\components\header" />
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\components\users" />
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\redux" />
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\components\body" />
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\dialogs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ACER\react\react-first\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ACER\react\react-first\src" />
-      <recent name="C:\Users\ACER\react\react-first\src\components\others\settings" />
-      <recent name="C:\Users\ACER\react\react-first\src\components\others\news" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -66,13 +112,25 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -104,17 +162,60 @@
       <workItem from="1599677842332" duration="4953000" />
       <workItem from="1599739264090" duration="10013000" />
       <workItem from="1599820633652" duration="2015000" />
+      <workItem from="1599824073368" duration="2253000" />
+      <workItem from="1599837389566" duration="10169000" />
+      <workItem from="1599912239904" duration="8478000" />
+      <workItem from="1600004915257" duration="2041000" />
+      <workItem from="1600007460267" duration="1615000" />
+      <workItem from="1600031151286" duration="1506000" />
+      <workItem from="1600078136255" duration="48000" />
+      <workItem from="1600078602461" duration="39000" />
+      <workItem from="1600079129555" duration="177000" />
+      <workItem from="1600079368601" duration="9077000" />
+      <workItem from="1600151940971" duration="15415000" />
+      <workItem from="1603708709052" duration="31000" />
+      <workItem from="1603708745150" duration="1697000" />
+      <workItem from="1603993254670" duration="1845000" />
+      <workItem from="1604245691043" duration="1262000" />
+      <workItem from="1604301786263" duration="3197000" />
+      <workItem from="1604402370632" duration="9650000" />
+      <workItem from="1604477392756" duration="5772000" />
+      <workItem from="1604498881980" duration="10625000" />
+      <workItem from="1604585273348" duration="2018000" />
+      <workItem from="1604594134725" duration="2216000" />
+      <workItem from="1604751646938" duration="8958000" />
+      <workItem from="1604830131936" duration="7898000" />
+      <workItem from="1604852305244" duration="4320000" />
+      <workItem from="1604910104921" duration="3027000" />
+      <workItem from="1604920739140" duration="4222000" />
+      <workItem from="1604992945011" duration="4287000" />
+      <workItem from="1605092625177" duration="3451000" />
+      <workItem from="1605105088425" duration="7124000" />
+      <workItem from="1605184985416" duration="1067000" />
+      <workItem from="1605447519412" duration="8110000" />
+      <workItem from="1605528912213" duration="9438000" />
+      <workItem from="1605672822441" duration="8812000" />
+      <workItem from="1605710807031" duration="6053000" />
+      <workItem from="1605766954865" duration="3282000" />
+      <workItem from="1605793880037" duration="9252000" />
+      <workItem from="1605870294250" duration="5969000" />
+      <workItem from="1605970496919" duration="2684000" />
+      <workItem from="1606283563333" duration="7128000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="98" key="#Configure_Path_Variables" timestamp="1599394195066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="387" y="98" key="#Configure_Path_Variables/0.0.1536.824@0.0.1536.824" timestamp="1599394195066" />
+    <state x="638" y="304" key="#ESLint" timestamp="1605694472492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="638" y="304" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1605694472492" />
     <state x="277" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598550504877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -127,26 +228,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="369" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1598330616210" />
-    <state x="854" y="235" key="FileChooserDialogImpl" timestamp="1599569140569">
+    <state x="264" y="151" key="FileChooserDialogImpl" timestamp="1603708739406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="854" y="235" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599569140569" />
-    <state width="1515" height="509" key="GridCell.Tab.0.bottom" timestamp="1599822637155">
+    <state x="264" y="151" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603708739406" />
+    <state width="1248" height="435" key="GridCell.Tab.0.bottom" timestamp="1600152009806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="509" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599822637155" />
-    <state width="1515" height="509" key="GridCell.Tab.0.center" timestamp="1599822637155">
+    <state width="1248" height="435" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
+    <state width="1248" height="435" key="GridCell.Tab.0.center" timestamp="1600152009806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="509" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599822637155" />
-    <state width="1515" height="509" key="GridCell.Tab.0.left" timestamp="1599822637154">
+    <state width="1248" height="435" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
+    <state width="1248" height="435" key="GridCell.Tab.0.left" timestamp="1600152009806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="509" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599822637154" />
-    <state width="1515" height="509" key="GridCell.Tab.0.right" timestamp="1599822637155">
+    <state width="1248" height="435" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
+    <state width="1248" height="435" key="GridCell.Tab.0.right" timestamp="1600152009806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="509" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599822637155" />
+    <state width="1248" height="435" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
     <state x="343" y="60" key="SettingsEditor" timestamp="1599568409971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -155,31 +256,36 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="426" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1599594509743" />
-    <state x="480" y="46" width="576" height="732" key="find.popup" timestamp="1599569176040">
+    <state x="480" y="46" width="588" height="732" key="find.popup" timestamp="1600169271371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="480" y="46" width="576" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599569176040" />
-    <state x="453" y="256" key="run.anything.popup" timestamp="1598548482406">
+    <state x="480" y="46" width="588" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600169271371" />
+    <state x="453" y="256" key="run.anything.popup" timestamp="1605691478824">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="453" y="256" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598548482406" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599744886329">
+    <state x="453" y="256" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605691478824" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604585988735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599744886329" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604585988735" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/redux/store.js</url>
-          <line>30</line>
+          <line>28</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/others/news/news.js</url>
           <line>3</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/store.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

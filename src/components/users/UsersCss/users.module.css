@@ -1,0 +1,114 @@
+.spans{
+    margin: 15px;
+}
+
+.spans span{
+    font-size: 18px;
+    margin: 0 4px;
+    transition: opacity .3s linear;
+
+}
+.spans span:hover{
+    opacity:0.6;
+    cursor: pointer;
+    color:red;
+}
+.fatBoy{
+    font-weight: bold;
+    color:darkred;
+}
+.image {
+    width: 60px;
+    cursor:pointer;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid grey;
+}
+.main{
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+}
+
+.follow {
+    color: #fff;
+
+    font-size: 18px;
+    padding: 7px;
+}
+.true {
+    color: green;
+}
+.false {
+    color: red;
+}
+.message{
+    display: flex;
+    border:1px solid #aeb1b5;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #fff;
+}
+.AboutName {
+    display: block;
+    padding: 10px;
+}
+.AboutPlace{
+    display: block;
+
+    padding-left: 400px;
+    padding-right: 20px;
+}
+.fullname{
+    color:black;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.status{
+    padding-bottom: 11px;
+    color:gray;
+}
+.city{
+    margin-bottom: 10px;
+    color: gray;
+    font-size: 19px;
+}
+.country{
+    font-size: 19px;
+    color: gray;
+}
+.btn{
+    margin-left: 40%;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    color:#fff;
+    background-color: red;
+    cursor: pointer;
+    transition: background-color .2s linear;
+    font-style: initial;
+}
+.btn:hover{
+    background-color: darkred;
+}
+/*ARROW*/
+
+.leftArrow img{
+    width:24px;
+    height: 24px;
+
+}
+.rightArrow img{
+    width:24px;
+    height: 24px;
+}
+.rightArrow img:hover ,
+.leftArrow img:hover {
+    cursor:pointer;
+    opacity: 0.7;
+}
+.paginator {
+    display:flex;
+}

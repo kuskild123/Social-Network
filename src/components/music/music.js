@@ -7,4 +7,4 @@ function Music() {
     )
 }
 
-export {Music};
+export default Music;

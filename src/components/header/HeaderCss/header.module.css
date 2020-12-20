@@ -1,0 +1,39 @@
+.header{
+  height: 60px;
+  background:#3f5196;
+  position: relative;
+}
+
+.header img{
+  border: 1px solid gray;
+  width: 40px;
+  position: absolute;
+  left: -7px;
+  top: -5px;
+}
+.name{
+  color:gold;
+  position: absolute;
+  right: 45px;
+  top:20px;
+}
+.logout{
+    color:#aeb1b5;
+    font-size:12px;
+    right: -35px;
+    top: -14px;
+    position: absolute;
+    transition: color .2s linear;
+}
+.logout:hover {
+    color:red;
+    cursor:pointer;
+}
+.login {
+    color: white;
+    font-size:17px;
+    text-decoration:none;
+}
+.login:hover {
+    color:gold
+}

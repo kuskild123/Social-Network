@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d01ff3cf5ea3551f4dff5f7fad7d5e97",
+    "revision": "d78b205aa506839b8581226c73e28b73",
     "url": "/Social-Network/index.html"
   },
   {
-    "revision": "45d04f7660cb26fc1951",
+    "revision": "2bbca7cae6dc773ae57e",
     "url": "/Social-Network/static/css/3.c21f14f7.chunk.css"
   },
   {
-    "revision": "e1336de72a00a7f853ef",
+    "revision": "aef552c9c7f0ac89c1f9",
     "url": "/Social-Network/static/css/4.601b7b4b.chunk.css"
   },
   {
-    "revision": "b2c07f8eb862dcf54fc2",
+    "revision": "22b6c3c73fb9dac7aa6c",
     "url": "/Social-Network/static/css/main.0eed8e5d.chunk.css"
   },
   {
-    "revision": "13ab83c96916b77a3910",
-    "url": "/Social-Network/static/js/2.f5d93e29.chunk.js"
+    "revision": "9129216b772b93e26db0",
+    "url": "/Social-Network/static/js/2.f9b8d926.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Social-Network/static/js/2.f5d93e29.chunk.js.LICENSE.txt"
+    "url": "/Social-Network/static/js/2.f9b8d926.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45d04f7660cb26fc1951",
-    "url": "/Social-Network/static/js/3.e2328213.chunk.js"
+    "revision": "2bbca7cae6dc773ae57e",
+    "url": "/Social-Network/static/js/3.75221320.chunk.js"
   },
   {
-    "revision": "e1336de72a00a7f853ef",
-    "url": "/Social-Network/static/js/4.0ef5b975.chunk.js"
+    "revision": "aef552c9c7f0ac89c1f9",
+    "url": "/Social-Network/static/js/4.10712637.chunk.js"
   },
   {
     "revision": "dd9336a6114e26987cd6",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Social-Network/static/js/7.ad89a9c6.chunk.js"
   },
   {
-    "revision": "b2c07f8eb862dcf54fc2",
-    "url": "/Social-Network/static/js/main.204bc570.chunk.js"
+    "revision": "22b6c3c73fb9dac7aa6c",
+    "url": "/Social-Network/static/js/main.c7377487.chunk.js"
   },
   {
-    "revision": "eefc9b88f02418da9ad8",
-    "url": "/Social-Network/static/js/runtime-main.b337eb91.js"
+    "revision": "dcb8a38e589c20e20c4f",
+    "url": "/Social-Network/static/js/runtime-main.e4bcc95f.js"
   },
   {
     "revision": "0c65b1b9ab170bf5e215517e3861dc5f",

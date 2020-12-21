@@ -2,7 +2,7 @@
   "name": "react-first",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kuskild123/SocialNet",
+  "homepage": "https://kuskild123.github.io/Social-Network",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

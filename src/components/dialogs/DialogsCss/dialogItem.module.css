@@ -1,0 +1,48 @@
+
+.messages{
+    width: 200px;
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 17px;
+    background: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+.messages2{
+    border:1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 17px;
+    width:200px;
+    background: lightblue;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 25px;
+}
+.names {}
+.names a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #1c4b8a;
+    transition: color .1s linear;
+}
+
+.line {
+    display: block;
+    content: '';
+    height: 0.2px;
+
+    background: #aeb1b5;
+    margin: 3px 0;
+    margin-bottom: 10px;
+}
+
+
+
+.names a:hover{
+    color: red;
+}
+.names a.NameActive{
+    color:red;
+}

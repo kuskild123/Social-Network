@@ -1,0 +1,86 @@
+.allcomment{
+    border: 1px solid black;
+    padding: 8px 8px 20px 8px;
+    background:#c7c7c7;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    width: max-content;
+    max-width: 300px;
+}
+.comment p {
+    margin: 8px;
+    font-style: italic;
+}
+.avatar img {
+    width: 70px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right:5px;
+}
+
+.avatar{
+    display: flex;
+    font-weight: 700;
+    font-size: 19px;
+    height: 60px;
+}
+.image{
+    text-align:center;
+    margin-bottom: 30px;
+}
+.image img{
+    width:90%;
+    height: 300px;
+}
+.true{
+    color: green;
+    font-weight: 400;
+    margin: 8px;
+}
+.false{
+    color:red;
+    font-weight: 500;
+    margin: 8px;
+}
+.fullName {
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: min-content;
+}
+.MyStatus{
+    background: darkcyan;
+    color:white;
+    border-radius:6px;
+    padding: 5px 5px 9px 5px;
+    font-style: italic;
+    line-height: 1.7;
+    margin: 4px;
+}
+.MyStatus:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.Status{
+    background-color:darkgray;
+    border-radius:6px;
+    font-weight: 600;
+    padding: 5px 5px 9px 5px;
+    font-style: italic;
+
+}
+.info{
+    margin-bottom: 15px;
+}
+.heart {
+    color:#d9041d;;
+    font-size: 20px;
+}
+.heart:hover {
+    color:darkred;
+    cursor:pointer;
+}
+.likesCount {
+    margin-top:5px;
+    margin:5px 0 0 3px
+}

@@ -1,0 +1,26 @@
+.dialogs{
+    display:flex;
+}
+.line{
+    content:'';
+    display: inline-block;
+    margin: 0 80px;
+    background: black;
+    color:black;
+    width: 0.5px;
+}
+.form {
+    padding: 10px;
+    display: block;
+    float:bottom;
+}
+.AddMessage{
+    width: 150px;
+    height: 35px;
+}
+
+.FormButton{
+    background: darkred;
+    color: white;
+    margin: 5px 0;
+}

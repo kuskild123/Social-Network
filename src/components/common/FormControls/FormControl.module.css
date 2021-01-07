@@ -9,6 +9,9 @@
 
 .FormControl.error span {
     color:red;
-    margin:9px 0 0 5px;
-    position: absolute;
+    margin:2px;
+}
+.FormControl textarea{
+    max-width: 250px;
+    max-height: 200px;
 }

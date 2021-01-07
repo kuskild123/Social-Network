@@ -1,6 +1,5 @@
 import React from 'react';
 import * as axios from "axios";
-import { Profile } from '../Profile/ProfileMain/profile';
 
 const instanse = axios.create({
     withCredentials:true,
@@ -27,8 +26,8 @@ const authAPI = {
     getData(){
         return instanse.get(`auth/me`)
     },
-    login(email,password,rememberMe = false){
-        return instanse.post(`auth/login`,{email,password,rememberMe})
+    login(email,password,rememberMe = false,captcha = null){
+        return instanse.post(`auth/login`,{email,password,rememberMe,captcha})
     },
     loginDelete(){
         return instanse.delete(`auth/login`)
@@ -50,9 +49,23 @@ const ProfileAPI = {
     },
     getMyStatus(myStatus){
         return instanse.get(`profile/status/${myStatus}`)
+    },
+    updateMyPhoto(NewPhoto){
+        let formData = new FormData();
+        formData.append("image",NewPhoto)
+        return instanse.put(`profile/photo`,formData,{headers:{
+                    'Content-Type':'multipart/form-data'
+            }})
+    },
+    saveMyContacts(contacts) {
+        return instanse.put(`profile`,contacts)
     }
 }
-
+export const CaptchaApi = {
+    getCaptchaURL(){
+        return instanse.get(`security/get-captcha-url`)
+    }
+}
 
 const getUsers = (CurrentValue,PageSize) => UsersAPI.getUsers(CurrentValue,PageSize)
 const getFollow = (id) => UsersAPI.Follow(id)
@@ -63,6 +76,12 @@ const getStatusA = (userId) => ProfileAPI.getStatusA(userId)
 const updateStatusA = (status) => ProfileAPI.updateStatus(status)
 const getMyProfileA = (id) => ProfileAPI.getMyProfile(id)
 const getMyStatusA = (myStatus) => ProfileAPI.getMyStatus(myStatus)
-const loginA = (email,password,rememberMe) => authAPI.login(email,password,rememberMe)
+const loginA = (email,password,rememberMe,captcha) => authAPI.login(email,password,rememberMe,captcha)
 const loginDelA = () => authAPI.loginDelete()
-export {getFollow,getUnFollow,getUsers,getData,getProfileAPI,getStatusA,updateStatusA,getMyProfileA,getMyStatusA,loginA,loginDelA};
+const savePhoto = (NewPhoto) => ProfileAPI.updateMyPhoto(NewPhoto)
+const saveMyContactsA = (contacts) => ProfileAPI.saveMyContacts(contacts)
+
+export {getFollow,getUnFollow,getUsers,getData,getProfileAPI,
+    getStatusA,updateStatusA,getMyProfileA,getMyStatusA,loginA,
+    loginDelA,savePhoto,saveMyContactsA
+};

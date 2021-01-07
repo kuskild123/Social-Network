@@ -2,40 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/body/body-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/body/image-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/users-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/users.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialogs/dialogs-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialogs/form-container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/UserPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/posts/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/posts/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/posts/posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/posts/posts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IMAGES/canada.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DAL/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DAL/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HOC/WithAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HOC/WithAuthRedirect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPostContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPostContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/AllMyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/AllMyPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.test.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Posts/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Posts/post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profileContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormControls/FormControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControl.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsMain/dialogs-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsMain/dialogs-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderCss/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderCss/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderMain/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderMain/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/help/paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/help/paginator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/LoginCss/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginCss/login.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/loginContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/loginContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/menu/body.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/body.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/others/settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/others/settings/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialogs/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dialogs/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dialogs/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/DialogPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/DialogPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/messagePageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/messagePageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersCss/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersCss/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Auth/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Auth/AuthReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPReducer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/ProfilePageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/ProfilePageReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gQRdCMHQdOpRHFK1pbXc7nvadk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -201,73 +207,20 @@
       <workItem from="1605870294250" duration="5969000" />
       <workItem from="1605970496919" duration="2684000" />
       <workItem from="1606283563333" duration="7128000" />
+      <workItem from="1609237749618" duration="3866000" />
+      <workItem from="1609500641427" duration="10896000" />
+      <workItem from="1609591895424" duration="6339000" />
+      <workItem from="1609662329921" duration="2930000" />
+      <workItem from="1609667042078" duration="5022000" />
+      <workItem from="1609690208491" duration="1440000" />
+      <workItem from="1609752194281" duration="736000" />
+      <workItem from="1609825070701" duration="801000" />
+      <workItem from="1610001312786" duration="5634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="387" y="98" key="#Configure_Path_Variables" timestamp="1599394195066">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="387" y="98" key="#Configure_Path_Variables/0.0.1536.824@0.0.1536.824" timestamp="1599394195066" />
-    <state x="638" y="304" key="#ESLint" timestamp="1605694472492">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="638" y="304" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1605694472492" />
-    <state x="277" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598550504877">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598550504877" />
-    <state x="518" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599394551960">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="518" y="202" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599394551960" />
-    <state x="408" y="369" key="EditFileWatcherDialog" timestamp="1598330616210">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="408" y="369" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1598330616210" />
-    <state x="264" y="151" key="FileChooserDialogImpl" timestamp="1603708739406">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="264" y="151" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603708739406" />
-    <state width="1248" height="435" key="GridCell.Tab.0.bottom" timestamp="1600152009806">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1248" height="435" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
-    <state width="1248" height="435" key="GridCell.Tab.0.center" timestamp="1600152009806">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1248" height="435" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
-    <state width="1248" height="435" key="GridCell.Tab.0.left" timestamp="1600152009806">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1248" height="435" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
-    <state width="1248" height="435" key="GridCell.Tab.0.right" timestamp="1600152009806">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1248" height="435" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600152009806" />
-    <state x="343" y="60" key="SettingsEditor" timestamp="1599568409971">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="343" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599568409971" />
-    <state x="426" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599594509743">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="426" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1599594509743" />
-    <state x="480" y="46" width="588" height="732" key="find.popup" timestamp="1600169271371">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="480" y="46" width="588" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600169271371" />
-    <state x="453" y="256" key="run.anything.popup" timestamp="1605691478824">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="453" y="256" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605691478824" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604585988735">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604585988735" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

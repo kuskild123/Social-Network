@@ -1,7 +1,9 @@
 import React from 'react';
 import {Profile} from "./profile";
 import {connect} from "react-redux";
-import {GetProfile, SetProfile,GetStatus,UpdateStatus,GetMyProfile,GetMyStatus} from "../../../redux/Profile/ProfilePageReducers/ProfilePageReducer"
+import {GetProfile,
+    SetProfile, GetStatus, UpdateStatus, GetMyProfile, GetMyStatus, SavePhoto, SaveMyContacts, ChangeEditContacts
+} from "../../../redux/Profile/ProfilePageReducers/ProfilePageReducer"
 import {compose} from "redux";
 import {SetPostUser} from "../../../redux/Profile/ProfilePageReducers/PostPageReducer";
 import {withRouter} from "react-router-dom";
@@ -23,34 +25,35 @@ class ProfileContainerAPI extends React.Component {
 
         }
     }
-    componentDidMount(){
+    refreshProfile() {
+        let userId = this.props.match.params.userId
 
-           let userId = this.props.match.params.userId
-
-            if(!userId){
-                userId = 2
-            }
+        if(!userId){
+            userId = 2
+        }
 
         let MyId = () => {
             if(this.props.IsAuth){
-               return this.props.MyProfileId;
+                return this.props.MyProfileId;
             }
-            // if(!this.props.IsAuth) {
-            //     this.props.history.push('/login')
-            // }
         }
-
-
-           this.props.GetProfile( userId )
-           this.props.GetMyStatus(MyId())
-           this.props.GetMyProfile(MyId())
-           this.props.GetStatus(userId)
-
+        this.props.GetProfile( userId )
+        this.props.GetMyStatus(MyId())
+        this.props.GetMyProfile(MyId())
+        this.props.GetStatus(userId)
+    }
+    componentDidMount(){
+        this.refreshProfile()
        }
+    componentDidUpdate(prevProps, prevState) {
+        if(this.props.match.params.userId != prevProps.match.params.userId){
+            this.refreshProfile()
+        }
+    }
 
     render(){
         return <>
-            <Profile  ProfileImage={this.ProfileImage} {...this.props}></Profile>
+            <Profile ProfileImage={this.ProfileImage} {...this.props}/>
         </>
     }
 }
@@ -61,12 +64,14 @@ let MapStateToProps = (state) => {
             Status:state.ProfilePage.Status,
             MyStatus:state.ProfilePage.MyStatus,
             MyProfileId:state.auth.id,
-            IsAuth:state.auth.isAuth
+            IsAuth:state.auth.isAuth,
+            EditContacts:state.ProfilePage.EditContacts
     }
 }
 
 
-export default compose(connect(MapStateToProps,{SetProfile,GetProfile,GetStatus,UpdateStatus,GetMyProfile,GetMyStatus,SetPostUser}),
-                        withRouter
-    )(ProfileContainerAPI)
+export default compose(connect(MapStateToProps,{SetProfile,GetProfile,GetStatus,
+        UpdateStatus,GetMyProfile,GetMyStatus,
+        SetPostUser,SavePhoto,SaveMyContacts,ChangeEditContacts
+}),withRouter)(ProfileContainerAPI)
 

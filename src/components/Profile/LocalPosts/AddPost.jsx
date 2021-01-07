@@ -1,5 +1,6 @@
 import React from 'react';
 import p from "../ProfileCss/profile.module.css";
+
 let AddPost = (props) => {
     return <div>
         {[...props.Post]
@@ -14,7 +15,9 @@ let AddPost = (props) => {
                     <div className={p.comment}>
                         <p style={{fontStyle:'italic'}}>{m.comment}</p>
                         <div style={{display:'flex',textAlign:'center'}}>
-                            <div className={p.heart}>&#10084;</div>
+                            <div onClick={() => setTimeout( () => { m.likeFetch?  props.DisLikePost(m.id) :
+                                    props.LikePost(m.id)},500 )}
+                                 className={m.likeFetch? p.heartActive : p.heart}><span>&#10084;</span></div>
                             <div className={p.likesCount}>{m.likesCount}</div>
                         </div>
                     </div>

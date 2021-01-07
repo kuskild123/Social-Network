@@ -13,10 +13,10 @@ let withAuthRedirect = (Component) => {
 
                 if(!this.props.isAuth){
                     return (
-                        <Redirect to={'login'}></Redirect>
+                        <Redirect to={'login'}/>
                     )
                 }
-                return <Component {...this.props}></Component>
+                return <Component {...this.props}/>
 
         }
     }

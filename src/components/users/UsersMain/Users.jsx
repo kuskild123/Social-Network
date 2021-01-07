@@ -3,7 +3,7 @@ import u from "../UsersCss/users.module.css";
 import {Paginator} from "../../help/paginator";
 import User from "./User";
 
-let Users = (props) => {
+let Users = React.memo (props => {
     return <div>
         <div className={u.spans}>
             <div>
@@ -20,6 +20,6 @@ let Users = (props) => {
         <button className={u.btn}>Show More...</button>
     </div>
 
-}
+})
 
 export default Users;

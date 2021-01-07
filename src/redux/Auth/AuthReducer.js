@@ -1,13 +1,14 @@
-import {getData, loginA, loginDelA} from "../../components/DAL/api";
+import {CaptchaApi, getData, loginA, loginDelA} from "../../components/DAL/api";
 import {stopSubmit} from 'redux-form'
 
-const SetUserData = 'SET-USER-DATA';
-
+const SetUserData = 'AuthReducer/SET-USER-DATA';
+const GetCaptchaUrlSuccess = 'AuthReducer/GetCaptchaUrlSuccess'
 let initialState = {
     id: null,
     email: null,
     login: null,
-    isAuth: false
+    isAuth: false,
+    captcha:null
 }
 
 let AuthReducer = (state = initialState, action) => {
@@ -17,6 +18,11 @@ let AuthReducer = (state = initialState, action) => {
                 ...state,
                 ...action.user
             }
+        case GetCaptchaUrlSuccess:
+            return{
+                ...state,
+                captcha: action.captcha
+            }
         default:
             return state;
     }
@@ -24,7 +30,12 @@ let AuthReducer = (state = initialState, action) => {
 
 const SetUser = (id, email, login, isAuth) => {
     return {
-        type: 'SET-USER-DATA', user: {id, email, login, isAuth}
+        type: SetUserData, user: {id, email, login, isAuth}
+    }
+}
+const GetCaptchaURL = (captcha) => {
+    return {
+        type:GetCaptchaUrlSuccess,captcha
     }
 }
 const GetUser = () => async (dispatch) => {
@@ -35,12 +46,15 @@ const GetUser = () => async (dispatch) => {
     }
 }
 
-const LoginT = (email, password, rememberMe) => async (dispatch) => {
+const LoginT = (email, password, rememberMe,captcha) => async (dispatch) => {
 
-    let response = await loginA(email, password, rememberMe)
+    let response = await loginA(email, password, rememberMe,captcha)
     if (response.data.resultCode === 0) {
         dispatch(GetUser())
     } else {
+        if(response.data.resultCode === 10){
+            dispatch(Captcha())
+        }
         let message = response.data.messages.length > 0 ? response.data.messages[0] : 'Some error'
         dispatch(stopSubmit("login", {_error: message}));
     }
@@ -52,6 +66,13 @@ const LogoutT = () => {
             dispatch(SetUser(null, null, null, false))
         }
 
+    }
+}
+export const Captcha = () => {
+    return async (dispatch) => {
+        const response = await CaptchaApi.getCaptchaURL();
+        const CaptchaURL  = response.data.url;
+        dispatch(GetCaptchaURL(CaptchaURL))
     }
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
-
+import d from './Home.module.css'
 
 const Home = (props) => {
     return(
-        <div>
-            Hello! This is homepage
+        <div className={d.diana}>
+            Happy New Year!
         </div>
     )
 }

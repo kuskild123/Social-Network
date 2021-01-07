@@ -1,21 +1,19 @@
 .header{
   height: 60px;
-  background:#3f5196;
+  background-image: url("http://www.freeliquidtemplates.com/free-headers-for-websites/header11.jpg");
   position: relative;
-}
-
-.header img{
-  border: 1px solid gray;
-  width: 40px;
-  position: absolute;
-  left: -7px;
-  top: -5px;
 }
 .name{
   color:gold;
   position: absolute;
   right: 45px;
   top:20px;
+}
+.headerClock{
+    left: 15px;
+    color: mediumturquoise;
+    top: -15px;
+    position: absolute;
 }
 .logout{
     color:#aeb1b5;

@@ -1,26 +1,27 @@
 import React from 'react';
-import Post from "../MyPosts/Posts/post.jsx";
 import {Img} from "../Image/image";
 import d from '../ProfileCss/profile.module.css'
-import AddPostContainer from "../LocalPosts/AddPostContainer";
+import LocalPostContainer from "../LocalPosts/AddPostContainer";
 import AllMyPosts from "../MyPosts/AllMyPosts";
+import PostWithStatus from "../MyPosts/Posts/post";
 
 let Profile = (props) => {
 
 
-    return <>
-        <Img></Img>
+    return <div>
+        <Img/>
         <div className={d.flex}>
-            { props.IsAuth? <div className={d.mypost}><AllMyPosts {...props}></AllMyPosts></div> : null }
-            <div className={d.post}>
-                <h2>Posts</h2>
-                <Post {...props}></Post>
-                <AddPostContainer></AddPostContainer>
+            <div className={d.AllPosts}>
+                { props.IsAuth && <LocalPostContainer/>}
+            </div>
+            { props.IsAuth && <div className={d.AllPosts}><AllMyPosts {...props}/></div> }
+            <div className={d.AllPosts}>
+                <PostWithStatus {...props}/>
             </div>
 
 
         </div>
-    </>
+    </div>
 
 }
 

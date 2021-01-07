@@ -21,7 +21,7 @@ let PostForm = (props) => {
 }
 
 let PostReduxForm = reduxForm({form:'NewPost'})(PostForm)
-let NewPost = (props) => {
+let PostWithForm = (props) => {
     let GetFormData = (formdata) => {
         props.SetPostUser(formdata.NewPostInput)
     }
@@ -33,4 +33,4 @@ let NewPost = (props) => {
     )
 }
 
-export default NewPost
+export default PostWithForm

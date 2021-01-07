@@ -5,17 +5,18 @@
     margin-bottom: 30px;
     border-radius: 30px;
     width: max-content;
-    max-width: 300px;
+
 }
 .comment p {
-    margin: 8px;
+    margin: 15px;
     font-style: italic;
 }
 .avatar img {
-    width: 70px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
     border-radius: 50px;
-    margin-right:5px;
+    margin:0 5px 10px 0;
+
 }
 
 .avatar{
@@ -70,17 +71,38 @@
 
 }
 .info{
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 .heart {
-    color:#d9041d;;
+    color:red;;
     font-size: 20px;
+    cursor:pointer;
+
 }
 .heart:hover {
     color:darkred;
-    cursor:pointer;
 }
+.heartActive {
+    color: black;
+    font-size: 20px;
+    cursor:pointer;
+
+}
+.heartActive:hover{
+    color: red;
+}
+
 .likesCount {
     margin-top:5px;
     margin:5px 0 0 3px
+}
+.EditAvatar{
+    color: darkcyan;
+    margin: 10px 0 10px 0;
+}
+.flex{
+    display:flex;
+}
+.AllPosts{
+    margin-right: 5%;
 }

@@ -10,19 +10,20 @@ class loginSettings extends React.Component {
     render () {
         return(
             <div>
-                <Login {...this.props}></Login>
+                <Login {...this.props}/>
             </div>
         )
     }
 }
 let MapStateToProps = (state) => {
     return {
-        isAuth : state.auth.isAuth
+        isAuth : state.auth.isAuth,
+        captcha : state.auth.captcha
     }
 }
 let MapDispatchToProps = (dispatch) => {
     return {
-        login:(email,password,rememberMe)=>{dispatch(LoginT(email,password,rememberMe))}
+        login:(email,password,rememberMe,captcha = null)=>{dispatch(LoginT(email,password,rememberMe,captcha))},
 
     }
 }

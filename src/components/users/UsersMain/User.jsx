@@ -3,7 +3,7 @@ import u from "../UsersCss/users.module.css";
 import {PhotoURL} from "../../help/help";
 import {NavLink} from "react-router-dom";
 
-let User = (props) => {
+let User = React.memo((props) => {
 
     let m = props.user
     return <div className={u.main}>
@@ -33,6 +33,6 @@ let User = (props) => {
         </div>
     </div>
 
-}
+})
 
 export default User;

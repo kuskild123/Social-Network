@@ -112,3 +112,12 @@
 .paginator {
     display:flex;
 }
+.point {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.points{
+    margin:0 50px 10px 30px;
+}

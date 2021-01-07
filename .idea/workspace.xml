@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IMAGES/ChristmasHeader.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IMAGES/Samurai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyContacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPostAboutMe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContactForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Clock/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/users/UsersHelp/UsersHelp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IMAGES/canada.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DAL/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DAL/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HOC/WithAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HOC/WithAuthRedirect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPostContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPostContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/AllMyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/AllMyPosts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.test.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Posts/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Posts/post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileMain/profileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormControls/FormControl.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControl.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormControls/FormControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/DialogsMain/dialogs-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/DialogsMain/dialogs-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderCss/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderCss/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/HeaderMain/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/HeaderMain/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/help/paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/help/paginator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginCss/login.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginCss/login.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/loginContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/loginContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/body.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu/body.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersCss/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersCss/users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Auth/AuthReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Auth/AuthReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPReducer.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/ProfilePageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/ProfilePageReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,12 +188,24 @@
       <workItem from="1609690208491" duration="1440000" />
       <workItem from="1609752194281" duration="736000" />
       <workItem from="1609825070701" duration="801000" />
-      <workItem from="1610001312786" duration="5634000" />
+      <workItem from="1610001312786" duration="6236000" />
     </task>
+    <task id="LOCAL-00001" summary="New update 2021!">
+      <created>1610014176275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610014176275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New update 2021!" />
+    <option name="LAST_COMMIT_MESSAGE" value="New update 2021!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

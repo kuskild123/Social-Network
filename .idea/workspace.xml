@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DAL/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DAL/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/help/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/help/validators/validators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersCss/userC.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersCss/userC.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/users-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/users-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Users/UsersPageReducers/UserPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Users/UsersPageReducers/UserPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Users/UsersPageSelectors/UsersPageSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Users/UsersPageSelectors/UsersPageSelector.js" afterDir="false" />
-    </list>
+    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,9 +93,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +187,7 @@
       <workItem from="1610777574857" duration="2839000" />
       <workItem from="1610868333189" duration="4890000" />
       <workItem from="1610877231969" duration="2517000" />
+      <workItem from="1610906043457" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="New update 2021!">
       <created>1610014176275</created>

@@ -22,3 +22,8 @@
         transform: rotate(360deg);
     }
 }
+.search{
+    width: 35px;
+    height:25px;
+    margin-left: 5px
+}

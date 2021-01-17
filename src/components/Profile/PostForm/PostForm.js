@@ -1,5 +1,5 @@
 import React from 'react';
-import {Field, reduxForm} from "redux-form";
+import {Field, reduxForm,reset} from "redux-form";
 import f from '../ProfileCss/PostForm.module.css'
 import {required,maxLengthCreator} from "../../help/validators/validators";
 import Element from "../../common/FormControls/FormControls";
@@ -23,12 +23,13 @@ let PostForm = (props) => {
 let PostReduxForm = reduxForm({form:'NewPost'})(PostForm)
 let PostWithForm = (props) => {
     let GetFormData = (formdata) => {
-        props.SetPostUser(formdata.NewPostInput)
+        props.SetPostUser(formdata.NewPostInput,reset,'NewPost')
+        debugger;
     }
 
     return (
         <div className={f.form}>
-            <PostReduxForm onSubmit={GetFormData}></PostReduxForm>
+            <PostReduxForm {...props} onSubmit={GetFormData}/>
         </div>
     )
 }

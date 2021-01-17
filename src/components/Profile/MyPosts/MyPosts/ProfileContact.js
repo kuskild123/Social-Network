@@ -25,6 +25,7 @@ const ProfileContact = (props) => {
             <img src={props.ProfileImage(props.Prof)} alt="empty"/>
             <div className={p.fullName}>{props.Prof.fullName}</div>
         </div>
+
         <div className={p.comment}>
             {
                 !MyOption && props.ItsI ?

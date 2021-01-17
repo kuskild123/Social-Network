@@ -6,7 +6,6 @@ let AddPost = (props) => {
         {[...props.Post]
             .map(m=> {
             return <div id={m.id} className={p.allcomment}>
-                <div className={p.inside}>
                     <div className={p.avatar}>
                         <img src={m.img} alt=""/>
 
@@ -21,7 +20,6 @@ let AddPost = (props) => {
                             <div className={p.likesCount}>{m.likesCount}</div>
                         </div>
                     </div>
-                </div>
             </div>
         })}
 

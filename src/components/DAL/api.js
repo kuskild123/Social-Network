@@ -10,8 +10,8 @@ const instanse = axios.create({
 
 }) 
 const UsersAPI = {
-    getUsers(CurrentValue = 1,PageSize = 5){
-        return instanse.get(`users?page=${CurrentValue}&count=${PageSize}`).then(response => response.data)
+    getUsers(CurrentValue = 1,PageSize = 5,term){
+        return instanse.get(`users?page=${CurrentValue}&count=${PageSize}&term=${term}`).then(response => response.data)
     },
     Follow(id) {
         return instanse.post(`follow/${id}`).then(response => response.data)
@@ -67,7 +67,7 @@ export const CaptchaApi = {
     }
 }
 
-const getUsers = (CurrentValue,PageSize) => UsersAPI.getUsers(CurrentValue,PageSize)
+const getUsers = (CurrentValue,PageSize,term) => UsersAPI.getUsers(CurrentValue,PageSize,term)
 const getFollow = (id) => UsersAPI.Follow(id)
 const getUnFollow = (id) => UsersAPI.UnFollow(id)
 const getData = () => authAPI.getData()

@@ -1,10 +1,11 @@
+import React from 'react';
 const required = value => {
     if(value) return undefined;
-    return "Field is required"
+    return <span title={"Field is required"}>!</span>
 }
 
 const maxLengthCreator = (maxLength) => (value) => {
-    if(value.length > maxLength) return `Max length is ${maxLength} symbols`;
+    if(value.length > maxLength)return <span title={`Max length is ${maxLength} symbols`}>!</span>
     return undefined;
 }
 

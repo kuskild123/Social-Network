@@ -13,15 +13,18 @@ let User = React.memo((props) => {
                     <img className={u.image} src={PhotoURL(m)} alt=""/>
                 </NavLink>
             </div>
-            <div className={u.follow}>
-                {m.followed ? <button className={u.true} disabled={props.IsProcessFollow.some(id => id === m.id)} onClick={() => {
+            { props.isAuth  && m.id !== props.AuthId && <div className={u.follow}>
+                {m.followed ? <button className={u.true} disabled={props.IsProcessFollow.some(id => id === m.id
+                    )} onClick={() => {
                         props.ClickUnFollow(m.id , props.GetUnFollow(m.id))
                     }} >Unfollow</button> :
-                    <button className={u.false} disabled={props.IsProcessFollow.some(id => id === m.id)} onClick={() => {
+                    <button className={u.false} disabled={props.IsProcessFollow.some(id => id === m.id )}
+                            onClick={() => {
                         props.ClickFollow(m.id , props.GetFollow(m.id))
                     }}>Follow</button>}
-            </div>
+            </div>}
         </div>
+
         <div className={u.message}>
             <div className={u.AboutName}>
                 <div className={u.fullname}>{m.name}</div>

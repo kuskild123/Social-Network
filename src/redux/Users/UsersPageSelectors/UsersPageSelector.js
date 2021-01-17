@@ -21,7 +21,9 @@ export const GetisFetching = (state) => {
 export const GetisProcessFollow = (state) => {
     return state.UsersPage.isProcessFollow
 }
-
+export const GetIsTerm = (state) => {
+    return state.UsersPage.term
+}
 
 
 

@@ -11,7 +11,7 @@ import {
     OnPageChanged,
     setFetching,
     setFetchingFollow,
-    setPage,
+    setPage, setTerm,
     setTotalCount,
     setUser,
     unFollow,
@@ -20,7 +20,7 @@ import {
 import {
     GetcurrentValue,
     GetisFetching,
-    GetisProcessFollow,
+    GetisProcessFollow, GetIsTerm,
     GetpageSize,
     GettotalUsersCount,
     GetUserData
@@ -33,7 +33,10 @@ let MapStateToProps = (state) => {
         TotalCount: GettotalUsersCount(state),
         CurrentValue: GetcurrentValue(state),
         IsFetching:GetisFetching(state),
-        IsProcessFollow:GetisProcessFollow(state)
+        IsProcessFollow:GetisProcessFollow(state),
+        Term:GetIsTerm(state),
+        isAuth: state.auth.isAuth,
+        AuthId:state.auth.id
     }
 };
 class UsersAPIComponent extends React.Component {
@@ -44,7 +47,7 @@ class UsersAPIComponent extends React.Component {
             }
         }
     onPageChanged = (PageNumber) => {
-        this.props.OnPageChanged(this.props.setPage,PageNumber,this.props.setFetching,this.props.PageSize,this.props.setUser)
+        this.props.OnPageChanged(this.props.setPage,PageNumber,this.props.setFetching,this.props.PageSize,this.props.setUser,this.props.Term)
     }
 
     Follow = (id) => {
@@ -63,9 +66,9 @@ class UsersAPIComponent extends React.Component {
     render() {
 
         return <>
-            {this.props.IsFetching ? <Loader></Loader>:null}
+            {this.props.IsFetching ? <Loader/>:null}
             <Users ClickUnFollow={this.ClickUnFollow} ClickFollow={this.ClickFollow}  onPageChanged={this.onPageChanged} GetFollow={this.Follow} GetUnFollow={this.UnFollow} {...this.props}
-            ></Users>
+            />
         </>
     }
 }
@@ -73,6 +76,6 @@ class UsersAPIComponent extends React.Component {
 export default compose(
                         connect(MapStateToProps,{follow,unFollow,setUser,GetUsers,
                             setPage,setTotalCount,setFetching,
-                            setFetchingFollow,OnPageChanged,Followed,UnFollowed,OnClickFetch
+                            setFetchingFollow,OnPageChanged,Followed,UnFollowed,OnClickFetch,setTerm
                         })
 )(UsersAPIComponent)

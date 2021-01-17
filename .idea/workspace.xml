@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IMAGES/ChristmasHeader.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMAGES/Samurai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyContacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyPostAboutMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Clock/Clock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/UsersHelp/UsersHelp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DAL/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DAL/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/LocalPosts/AddPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/MyProfileStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts/ProfileContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/PostForm/PostForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileCss/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/help/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/help/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HomeMain/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/LoginMain/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersCss/userC.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersCss/userC.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/User.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UsersMain/users-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersMain/users-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile/ProfilePageReducers/PostPageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Users/UsersPageReducers/UserPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Users/UsersPageReducers/UserPageReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Users/UsersPageSelectors/UsersPageSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Users/UsersPageSelectors/UsersPageSelector.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +75,7 @@
       <recent name="C:\Users\ACER\Documents\react repository\social\src\dialogs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\react repository\social\src\components\home/HomeElements" />
       <recent name="C:\Users\ACER\react\react-first\src" />
     </key>
   </component>
@@ -188,7 +197,15 @@
       <workItem from="1609690208491" duration="1440000" />
       <workItem from="1609752194281" duration="736000" />
       <workItem from="1609825070701" duration="801000" />
-      <workItem from="1610001312786" duration="6236000" />
+      <workItem from="1610001312786" duration="7436000" />
+      <workItem from="1610345852021" duration="6960000" />
+      <workItem from="1610448394504" duration="1000000" />
+      <workItem from="1610465723886" duration="2436000" />
+      <workItem from="1610636595399" duration="1182000" />
+      <workItem from="1610704869648" duration="7989000" />
+      <workItem from="1610777574857" duration="2839000" />
+      <workItem from="1610868333189" duration="4890000" />
+      <workItem from="1610877231969" duration="2517000" />
     </task>
     <task id="LOCAL-00001" summary="New update 2021!">
       <created>1610014176275</created>

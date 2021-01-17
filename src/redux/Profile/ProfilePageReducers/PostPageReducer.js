@@ -46,11 +46,17 @@ const PostReducer = (state=initialState,action) => {
             return state;
     }
 }
-let SetPostUser = (postComment) => {
+let SetPostUserAC = (postComment) => {
     return {
         type:SetPostUserVar,postComment
     }
 }
+export let SetPostUser = (postComment,res,form) => async (dispatch) => {
+    await dispatch(SetPostUserAC(postComment));
+    dispatch(res(form))
+}
+
+
 let DeletePost = (userId) => {
     return {
         type:DeletePostUserVar,userId
@@ -67,4 +73,4 @@ let DisLikePost = (PostId) => {
     }
 }
 
-export {PostReducer,SetPostUser,DeletePost,LikePost,DisLikePost}
+export {PostReducer,DeletePost,LikePost,DisLikePost}

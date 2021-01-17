@@ -11,19 +11,21 @@ let LoginForm = (props) => {
         <form onSubmit={props.handleSubmit}>
             {props.error && <div className={l.someError}>{props.error}</div>}
             <div>
-                <Field placeholder={"Email"} name={"email"} component={Input} validate={[required,maxLength20]}/>
+                <Field placeholder={"Email"} name={"email"} component={Input} validate={[required, maxLength20]}/>
             </div>
             <div>
-                <Field placeholder={"Password"} type={"password"} name={"password"} validate={[required,maxLength20]} component={Input}/>
+                <Field placeholder={"Password"} type={"password"} name={"password"} validate={[required, maxLength20]}
+                       component={Input}/>
             </div>
             <div>
 
                 <Field type={"checkbox"} name={"rememberMe"} component={"input"}/>remember me
-                </div>
+            </div>
             {props.captcha && <div>
                 <img src={props.captcha} alt={'captcha'}/>
-                <Field placeholder={"Symbols from image.."} name={"captcha"} component={Input} validate={[required,maxLength20]} />
-            </div>   }
+                <Field placeholder={"Symbols from image.."} name={"captcha"} component={Input}
+                       validate={[required, maxLength20]}/>
+            </div>}
             <div>
                 <button>Login</button>
             </div>
@@ -32,17 +34,21 @@ let LoginForm = (props) => {
 }
 
 const LoginReduxForm = reduxForm({
-    form:'login'})(LoginForm)
+    form: 'login'
+})(LoginForm)
 let Login = (props) => {
-    if(props.isAuth) {
+    if (props.isAuth) {
         return <Redirect to={'/profile'}/>
     }
     const GetFormData = (formData) => {
-        props.login(formData.email,formData.password,formData.rememberMe,formData.captcha)
+        props.login(formData.email, formData.password, formData.rememberMe, formData.captcha)
     }
     return (
         <div>
-            <h2>Login</h2>
+            <div style={{display: 'flex'}}>
+                <h2>Login</h2>
+                <p style={{margin:'10px'}}>Не зарегистрированы? Тогда спросите тестовый аккаунт у разработчика</p>
+            </div>
             <LoginReduxForm captcha={props.captcha} onSubmit={GetFormData}/>
         </div>
 

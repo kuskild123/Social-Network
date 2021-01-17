@@ -23,7 +23,7 @@ let MyProfileStatus = (props) => {
         setStatus( e.currentTarget.value )
     }
     return (
-        <div>
+        <div className={p.WithStatus}>
             {!editMode &&
                 <div>
                     <span

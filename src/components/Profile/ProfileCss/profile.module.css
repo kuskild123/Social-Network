@@ -1,22 +1,22 @@
+
 .allcomment{
     border: 1px solid black;
     padding: 8px 8px 20px 8px;
-    background:#c7c7c7;
+    background:#b8b7b2;
     margin-bottom: 30px;
     border-radius: 30px;
-    width: max-content;
-
+    max-width: 350px;
 }
 .comment p {
     margin: 15px;
     font-style: italic;
 }
+
 .avatar img {
     width: 80px;
     height: 70px;
     border-radius: 50px;
     margin:0 5px 10px 0;
-
 }
 
 .avatar{
@@ -51,11 +51,15 @@
 }
 .MyStatus{
     background: darkcyan;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     color:white;
     border-radius:6px;
     padding: 5px 5px 9px 5px;
     font-style: italic;
-    line-height: 1.7;
+    line-height: 1.4;
     margin: 4px;
 }
 .MyStatus:hover{
@@ -65,10 +69,17 @@
 .Status{
     background-color:darkgray;
     border-radius:6px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: min-content;
     font-weight: 600;
     padding: 5px 5px 9px 5px;
     font-style: italic;
 
+}
+.WithStatus{
 }
 .info{
     margin-bottom: 6px;

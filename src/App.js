@@ -38,7 +38,8 @@ class App extends React.Component {
                         {!this.props.IsInitial ? <div>
                             <Route path='/login' render={() => <Login/>}/>
                         </div> : <>
-                                <Redirect from='/' to='/home' />
+                        {this.props.isAuth ? <Redirect from='/' to='/home' /> :
+                            <Redirect from='/' to='/login' />}
                             <Route path='/dialogs' render={WithSuspense(Dialogs)}/>
                             <Route path='/music' render={WithSuspense(Music)}/>
                             <Route path='/login/privet' render={() => <div>Привет,как дела?</div>}/>
@@ -56,7 +57,8 @@ class App extends React.Component {
 }
 let MapStateToProps = (state) => {
     return {
-        IsInitial : state.AppPage.isInitial
+        IsInitial : state.AppPage.isInitial,
+        isAuth:state.auth.isAuth
     }
 }
 let AppContainer = compose(

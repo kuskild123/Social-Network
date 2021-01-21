@@ -24,14 +24,16 @@ const UserSearch = (props) => {
     }
     const DisableSearch = () => {
         props.setTerm("")
-        setResults('')
+        setResults(false)
     }
     return <>
         <div style={{display:'flex'}}>
         <UserSearchWithReduxForm initialValues={props.Term} onSubmit={SumbitFunc}/>
         {props.Term.length ? <span onClick={DisableSearch}>&#10005;</span> : null}
         </div>
-        {results? <b style={{margin:'10px'}}>Результаты по запросу {props.Term} </b> : null}
+        {results ? <p style={{margin: '15px 5px',fontStyle:'italic'}}>Результаты по запросу {props.Term} </p> : null}
+        {results && props.UserData.length === 0 && <h3>По вашему запросу ничего не найдено</h3>}
+
     </>
 
 }

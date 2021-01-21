@@ -1,7 +1,7 @@
 import React from 'react';
 const required = value => {
     if(value) return undefined;
-    return <span title={"Field is required"}>!</span>
+    return <span style={{fontWeight:600,fontSize:'17px',cursor:'pointer'}} title={"Field is required"}>!</span>
 }
 
 const maxLengthCreator = (maxLength) => (value) => {

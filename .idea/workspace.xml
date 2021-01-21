@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="" />
+    <list default="true" id="a4b6f76e-04fe-4960-8339-2d8b8d5b86b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/help/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/help/validators/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UserSearch/UserSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UserSearch/UserSearch.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +191,8 @@
       <workItem from="1610777574857" duration="2839000" />
       <workItem from="1610868333189" duration="4890000" />
       <workItem from="1610877231969" duration="2517000" />
-      <workItem from="1610906043457" duration="363000" />
+      <workItem from="1610906043457" duration="1382000" />
+      <workItem from="1611028406742" duration="1642000" />
     </task>
     <task id="LOCAL-00001" summary="New update 2021!">
       <created>1610014176275</created>

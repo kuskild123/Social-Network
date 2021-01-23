@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-first"]=this["webpackJsonpreact-first"]||[]).push([[7],{306:function(t,e,n){"use strict";n.r(e);var r=n(0),s=n.n(r);e.default=function(){return s.a.createElement("div",null,"music")}}}]);
-//# sourceMappingURL=7.2057fe6e.chunk.js.map
